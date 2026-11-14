@@ -94,3 +94,12 @@ with open("data/sales.csv", "r", newline="") as file:
         product_summary[product] = product_summary.get(product, 0) + total
 for product in sorted(product_summary):
     print(f"{product}: ${product_summary[product]:.2f}")
+
+# exercise 8 
+
+print("\nExercise 8:")
+from datetime import datetime
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+with open("data/run_log.txt", "a") as file:
+    file.write(f"{timestamp} - Total Revenue: ${total_revenue:.2f}\n")
+print("Sales revenue logged successfully.")
