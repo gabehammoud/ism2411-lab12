@@ -1,5 +1,16 @@
 # lab 12
 
+# reflection
+# 1.
+# Python makes it easier to automate repetitive data cleaning and reporting
+# tasks, especially with large datasets. Excel is better for quickly viewing
+# data and making changes manually.
+
+# 2.
+# A restaurant could use an append-mode log to record daily sales totals.
+# Append mode would be useful because it keeps previous records while
+# adding new ones without overwriting them.
+
 import csv
 
 # exercise 1
